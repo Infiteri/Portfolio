@@ -32,7 +32,8 @@ export default function ContactSection() {
                 Have a project in mind and you want to collaborate? Call me
             </p>
 
-            <div className="grid grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+
                 <div className="space-y-8">
                     <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
 
