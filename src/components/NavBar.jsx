@@ -42,7 +42,7 @@ export default function NavBar() {
             </div>
 
             <button onClick={() => setIsMenuOpen((prev) => !prev)}
-                className="md:hidden p-2 text-foreground z-50"
+                className="md:hidden p-2 px-12 text-foreground z-50"
             > {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}</button>
 
 
