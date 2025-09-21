@@ -12,7 +12,7 @@ export default function HeroSection() {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I create stuff for stuff like stuff with sql stuff with game engines like opengl and CORE
+                  I create code using C/C++ using OpenGL and other libraries. I can also create API's for MySQL using Java and Javascript
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">

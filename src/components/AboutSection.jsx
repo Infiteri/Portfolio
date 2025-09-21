@@ -10,15 +10,18 @@ export default function AboutSection() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold ">Passionate C++ DEVELOPER</h3>
+                    <h3 className="text-2xl font-semibold">Passionate C++ Developer</h3>
 
                     <p className="text-muted-foreground">
-                        With over 4 years of low level C++ programmer, i can assuer you I can write performent and important code.
+                        With over 4 years of experience in low-level C++ programming, I specialize in writing
+                        high-performance, reliable, and efficient code for critical systems.
                     </p>
 
                     <p className="text-muted-foreground">
-                        I can also write performant C code, libraries and even interop with MySql in C++ for low level, optimised database code.
+                        I also develop performant C libraries and create optimized MySQL integrations in C++/Java/Javascript,
+                        ensuring fast, secure, and resource-efficient database operations.
                     </p>
+
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
