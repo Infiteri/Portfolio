@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "Personal Protfolio",
-        description: "A simple, slick yet beautiful personal portfolio",
-        tags: ["React", "Tailwind", "Javascript"],
-        image: "/projects/project1.png",
+        title: "Gym API",
+        description: "A simple gym API written in Java + SpringBoot, with an external (WIP) CLI Tool",
+        tags: ["Java", "Springboot", "MySQL"],
+        image: "/projects/project2.png",
         demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Infiteri/GymApi",
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const projects = [
 
 export default function ProjectsSection() {
     return <section id="projects" className="py-24 px-4 relative">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-5xl">a
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Featured <span className="text-primary">Projects</span></h2>
 
             <p className="text-center text-muted-foreground mb-12 max-auto">

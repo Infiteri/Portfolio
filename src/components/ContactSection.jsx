@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "@/lib/utils"
 import { useToast } from "@/hooks/use-toast"
 import { useState } from "react";
@@ -82,14 +82,11 @@ export default function ContactSection() {
                         <h4 className="font-medium mb-4">Connect With Me</h4>
 
                         <div className="flex space-x-4 justify-center">
-                            <a href="#" target="_blank">
+                            <a href="https://www.linkedin.com/in/ion-golban-686908385/" target="_blank">
                                 <Linkedin />
                             </a>
-                            <a href="#" target="_blank">
-                                <Instagram />
-                            </a>
-                            <a href="#" target="_blank">
-                                <Facebook />
+                            <a href="https://github.com/Infiteri" target="_blank">
+                                <Github />
                             </a>
                         </div>
                     </div>

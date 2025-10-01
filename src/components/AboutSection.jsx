@@ -13,11 +13,17 @@ export default function AboutSection() {
                     <h3 className="text-2xl font-semibold ">Passionate C++ DEVELOPER</h3>
 
                     <p className="text-muted-foreground">
-                        With over 4 years of low level C++ programmer, i can assuer you I can write performent and important code.
-                    </p>
+                        With over 4 years of experience in low-level C++ programming, I specialize in writing
+                        high-performance, reliable, and efficient code for critical systems.         </p>
 
                     <p className="text-muted-foreground">
                         I can also write performant C code, libraries and even interop with MySql in C++ for low level, optimised database code.
+                    </p>
+
+                    <h3 className="text-2xl font-semibold ">Passionate BACKEND DEVELOPER</h3>
+
+                    <p className="text-muted-foreground">
+                        Developed RESTful APIs using Java Spring Boot following the CSRE pattern for gym management systems and built a custom CLI tool to manage said Gym.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
